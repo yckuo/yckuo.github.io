@@ -5,19 +5,31 @@ h1 {
     font-family: 'Verdana';
     font-weight: bold;
     font-size: 30px;
+    margin: 10px 0 30px 20px;
 }
 
 div {
-    border: 1px solid black;
+    border: 1px solid;
+    border-color: #EEE #AAA #AAA #EEE;
+    padding: 0 20px 0 20px;
+    margin: 0 50px 30px 50px;
+    min-width: 400px;
 }
 
 div h2 {
     font-family: 'Courier';
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
+    border: 1px solid;
+    border-color: #DDD #999 #999 #DDD;
+    padding: 8px;
+    margin: -15px 0 0 -10px;
+    position: relative;
+    z-index: 1;
+    background: #FFE;
 }
 
 div p {
-    font-family: 'Times New Roman';
-    font-size: 12px;
+    font-family: 'Courier';
+    font-size: 15px;
 }
