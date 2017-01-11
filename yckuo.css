@@ -1,4 +1,23 @@
 body {
-    font-family:'Roboto';
-    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Verdana';
+    font-weight: bold;
+    font-size: 30px;
+}
+
+div {
+    border: 1px solid black;
+}
+
+div h2 {
+    font-family: 'Courier';
+    font-weight: bold;
+    font-size: 15px;
+}
+
+div p {
+    font-family: 'Times New Roman';
+    font-size: 12px;
 }
