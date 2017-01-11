@@ -12,7 +12,7 @@ h1 {
     margin: 10px 0 30px 20px;
 }
 
-div {
+div.container {
     border: 1px solid;
     border-color: #EEE #AAA #AAA #EEE;
     padding: 0 20px 0 20px;
@@ -20,7 +20,7 @@ div {
     min-width: 400px;
 }
 
-div h2 {
+div.container h2 {
     font-family: 'Courier';
     font-weight: bold;
     font-size: 18px;
@@ -33,14 +33,13 @@ div h2 {
     background: #FFE;
 }
 
-div p {
+.text {
     font-family: 'Courier';
     font-size: 15px;
     display: inline-block;
 }
 
-div .side {
-    position: absolute;
+.side {
     right: 0;
     border: 3px solid black;
     padding: 10px;
