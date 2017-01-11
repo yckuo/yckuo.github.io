@@ -15,22 +15,24 @@ h1 {
 div.container {
     border: 1px solid;
     border-color: #EEE #AAA #AAA #EEE;
-    padding: 0 20px 0 20px;
+    padding: 0 20px 20px 20px;
     margin: 0 50px 30px 50px;
-    min-width: 400px;
+    min-width: 500px;
 }
 
 div.container h2 {
     font-family: 'Courier';
     font-weight: bold;
-    font-size: 18px;
+    font-size: 17px;
     border: 1px solid;
     border-color: #DDD #999 #999 #DDD;
-    padding: 8px;
-    margin: -15px 0 0 -10px;
+    padding: 5px 19px;
+    margin: -17px 0 10px -11px;
     position: relative;
     z-index: 1;
     background: #FFE;
+    width: fit-content;
+    min-width: 120px;
 }
 
 .text {
@@ -39,9 +41,9 @@ div.container h2 {
     display: inline-block;
 }
 
-.side {
-    right: 0;
+.img {
+    float: right;
     border: 3px solid black;
     padding: 10px;
-    display: inline-block;
+    /*display: inline-block;*/
 }
