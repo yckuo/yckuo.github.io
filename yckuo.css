@@ -1,6 +1,10 @@
 body {
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     font-family: 'Verdana';
     font-weight: bold;
@@ -32,4 +36,11 @@ div h2 {
 div p {
     font-family: 'Courier';
     font-size: 15px;
+}
+
+.side {
+    position: absolute;
+    right: 0;
+    border: 3px solid black;
+    padding: 10px;
 }
