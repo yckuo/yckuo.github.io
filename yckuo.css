@@ -27,6 +27,10 @@ div.banner span {
     font-size: 14px;
 }
 
+div.banner span img {
+    width: 16px;
+}
+
 div.wrapper {
     width: 1160px;
     -webkit-column-count: 2;
