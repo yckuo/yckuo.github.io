@@ -23,12 +23,13 @@ div.banner {
 }
 
 div.banner span {
-    font-family: 'Arial';
-    font-size: 14px;
+    vertical-align: middle;
+    height: 100%;
+    display: inline-block;
 }
 
 div.banner span img {
-    width: 16px;
+    width: 32px;
 }
 
 div.wrapper {
