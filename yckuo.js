@@ -11,7 +11,7 @@ $(document).ready(function() {
             return;
         }
         $('.modal').fadeOut(400, function() {
+            $('.caption').text('');
         });
-        $('.caption').text('');
     });
 });
