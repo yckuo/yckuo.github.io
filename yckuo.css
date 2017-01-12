@@ -30,16 +30,16 @@ div.banner span {
 
 #iconLinkedIn {
     background-image: url('https://www.linkedin.com/scds/common/u/images/logos/linkedin/logo_in_nav_retina_88x72_v1.png');
-    background-repeat: no-repeat;
 }
 
 #iconGitHub {
     background-image: url('https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png');
-    background-repeat: no-repeat;
 }
 
 div.banner img {
     width: 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 div.wrapper {
