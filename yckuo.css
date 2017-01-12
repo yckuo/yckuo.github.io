@@ -38,6 +38,7 @@ div.banner span {
 
 div.banner img {
     width: 32px;
+    vertical-align: middle;
     background-repeat: no-repeat;
     background-size: cover;
 }
