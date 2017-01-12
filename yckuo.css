@@ -12,6 +12,11 @@ h1 {
     margin: 10px 0 30px 20px;
 }
 
+div.banner {
+    width: 100%;
+    background: #EEA;
+}
+
 div.wrapper {
     width: 1160px;
     -webkit-column-count: 2;
