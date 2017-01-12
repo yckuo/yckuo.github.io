@@ -51,12 +51,12 @@ div.banner img {
 }
 
 div.wrapper {
-    width: 1160px;
-    -webkit-column-count: 2;
+    max-width: 1200px;
+    -webkit-column-count: auto;
     -webkit-column-fill: auto;
-    -moz-column-count: 2;
+    -moz-column-count: auto;
     -moz-column-fill: auto;
-    column-count: 2;
+    column-count: auto;
     column-fill: auto;
 }
 
