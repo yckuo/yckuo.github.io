@@ -22,6 +22,11 @@ div.banner {
     text-align: right;
 }
 
+div.banner span {
+    font-family: 'Arial';
+    font-size: 14px;
+}
+
 div.wrapper {
     width: 1160px;
     -webkit-column-count: 2;
