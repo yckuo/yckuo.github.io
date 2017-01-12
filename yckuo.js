@@ -5,7 +5,11 @@ $(document).ready(function() {
         $('.caption').text($(this).attr('alt'));
     });
 
-    $('.modal').click(function() {
+    $('.modal').click(function(e) {
+        if (e.target != this) {
+            return;
+        }
+        $('.caption').text('');
         $('.modal').css('display', 'none');
     });
 });
