@@ -14,7 +14,7 @@ h1 {
 
 div.banner {
     background: #DDD;
-    width: 100%;
+    width: 90%;
     height: 32px;
     border: solid #999;
     border-width: 1px 0 1px 0;
@@ -54,10 +54,13 @@ div.wrapper {
     max-width: 1200px;
     -webkit-column-count: auto;
     -webkit-column-fill: auto;
+    -webkit-column-width: 500px;
     -moz-column-count: auto;
     -moz-column-fill: auto;
+    -moz-column-width: 500px;
     column-count: auto;
     column-fill: auto;
+    column-width: 500px;
 }
 
 div.container {
