@@ -33,11 +33,12 @@ img.iconLinkedIn {
 }
 
 img.iconGitHub {
-    background-image: url('https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png');
+    background-image: url('https://github.com/favicon.ico');
 }
 
 div.banner img {
     width: 32px;
+    height: 32px;
     vertical-align: middle;
     background-repeat: no-repeat;
     background-size: cover;
