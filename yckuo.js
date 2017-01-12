@@ -10,7 +10,7 @@ $(document).ready(function() {
         if (e.target != this) {
             return;
         }
-        $('.modal').fadeOut(400, function() {
+        $('.modal').fadeOut(600, function() {
             $('.caption').text('');
         });
     });
