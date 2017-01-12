@@ -1,7 +1,9 @@
 $(document).ready(function() {
     $('.img').click(function() {
         $('.modal-content').attr('src', $(this).attr('src'));
-        $('.modal').css('display', 'block');
+        //$('.modal').css('display', 'block');
+        $('.modal').fadeIn('slow', function() {
+        });
         $('.caption').text($(this).attr('alt'));
     });
 
@@ -10,6 +12,8 @@ $(document).ready(function() {
             return;
         }
         $('.caption').text('');
-        $('.modal').css('display', 'none');
+        //$('.modal').css('display', 'none');
+        $('.modal').fadeOut('slow', function() {
+        });
     });
 });
