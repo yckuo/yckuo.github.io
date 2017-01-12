@@ -9,12 +9,17 @@ h1 {
     font-family: 'Verdana';
     font-weight: bold;
     font-size: 30px;
-    margin: 10px 0 30px 20px;
+    margin: 20px 0 20px 20px;
 }
 
 div.banner {
-    width: 100%;
-    background: #EEA;
+    background: #DDD;
+    height: 29px;
+    border: solid #999;
+    border-width: 1px 0 1px 0;
+    margin 0 0 10px 0;
+    padding: 5px 40px 5px 0;
+    text-align: right;
 }
 
 div.wrapper {
