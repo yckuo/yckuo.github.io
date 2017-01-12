@@ -3,7 +3,6 @@ $(document).ready(function() {
         $('.modal-content').attr('src', $(this).attr('src'));
         $('.modal').css('display', 'block');
         $('.caption').text($(this).attr('alt'));
-        alert('test');
     });
 
     $('.close').click(function() {
