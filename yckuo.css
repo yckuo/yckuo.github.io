@@ -115,22 +115,38 @@ div.container h2 {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.modal-box {
+    margin: auto;
+    display: block;
+    width: fit-content;
+    max-width: 700px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 30px;
+}
+
 .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
+    width: fit-content;
     max-width: 700px;
+    border: 3px solid black;
+    background-color: white;
+    padding: 5px;
 }
 
 .caption {
     margin: auto;
     display: block;
-    width: 80%;
+    width: fit-content;
     max-width: 700px;
     text-align: center;
     color: #DDD;
     padding: 10px 0;
     height: 150px;
+    font-family: 'monospace';
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .close {
