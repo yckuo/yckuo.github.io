@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('.img').click(function() {
-        $('.modal-content').attr('src', $(this).attr('src')); 
-        $('.caption').text($(this).attr('alt'));
+        $('figure img').attr('src', $(this).attr('src')); 
+        $('figcaption').text($(this).attr('alt'));
         $('.modal').fadeIn(400, function() {
         });
     });
@@ -10,8 +10,8 @@ $(document).ready(function() {
         if (e.target != this) {
             return;
         }
-        $('.modal').fadeOut(600, function() {
-            $('.caption').text('');
+        $('.modal').fadeOut(800, function() {
+            $('figcaption').text('');
         });
     });
 });

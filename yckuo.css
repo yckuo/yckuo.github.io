@@ -125,6 +125,23 @@ div.container h2 {
     border-radius: 25px;
 }
 
+figure {
+    display: table;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    padding: 0 5px 5px;
+}
+
+
+/*
 .caption {
     margin: auto;
     display: block;
@@ -137,7 +154,7 @@ div.container h2 {
     font-size: 16px;
     font-weight: bold;
 }
-
+*/
 @media only screen and (max-width: 700px){
     .modal-content {
         width: 100%;
