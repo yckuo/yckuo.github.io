@@ -23,10 +23,11 @@ div.wrapper {
 }
 
 div.container {
-    border: 1px solid;
-    border-color: #EEE #AAA #AAA #EEE;
+    border: solid;
+    border-width: 1px 2px 2px 1px;
+    border-color: #DDD #AAA #AAA #DDD;
     padding: 0 20px 20px 20px;
-    margin: 20px 50px 30px 50px;
+    margin: 30px 10px 20px 20px;
     width: 500px;
     display: inline-block;
 }
@@ -35,8 +36,9 @@ div.container h2 {
     font-family: 'Courier';
     font-weight: bold;
     font-size: 17px;
-    border: 1px solid;
-    border-color: #DDD #999 #999 #DDD;
+    border: solid;
+    border-width: 1px 2px 2px 1px;
+    border-color: #DDD #AAA #AAA #DDD;
     padding: 5px 19px;
     margin: -17px 0 10px -11px;
     position: relative;
@@ -54,7 +56,6 @@ div.container h2 {
 
 .img {
     float: right;
-    border: 3px solid black;
     padding: 8px;
     width: 170px;
 }
