@@ -6,7 +6,7 @@ a {
 }
 
 h1 {
-    font-family: 'Verdana';
+    font-family: 'Courier';
     font-weight: bold;
     font-size: 30px;
     margin: 20px 0 20px 20px;
@@ -43,9 +43,9 @@ div.container {
 }
 
 div.container h2 {
-    font-family: 'Courier';
+    font-family: 'Arial';
     font-weight: bold;
-    font-size: 17px;
+    font-size: 18px;
     border: solid;
     border-width: 1px 2px 2px 1px;
     border-color: #DDD #AAA #AAA #DDD;
@@ -59,8 +59,8 @@ div.container h2 {
 }
 
 .text {
-    font-family: 'Courier';
-    font-size: 15px;
+    font-family: 'Verdana';
+    font-size: 16px;
     display: inline-block;
 }
 
