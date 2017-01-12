@@ -5,7 +5,7 @@ $(document).ready(function() {
         $('.caption').text($(this).attr('alt'));
     });
 
-    $('.close').click(function() {
+    $('.modal').click(function() {
         $('.modal').css('display', 'none');
     });
 });
